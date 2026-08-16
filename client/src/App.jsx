@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 // The Backend API base URL (Express Server)
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://car-parking-system-1.onrender.com/api';
 
 function App() {
   // State 1: Active Tab / View ('home', 'book', 'check', 'admin')
